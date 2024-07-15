@@ -19,7 +19,7 @@ $users = [
 
         if (isset($_POST['us'])){
             if($flag==1){                                               //to compare == not =
-                header('location:index.php');
+                header('location:index.php?userName='.$userName);
                 
             }else{
             echo "<h1>please check your info</h1>";
